@@ -1,0 +1,62 @@
+body {
+  min-width: 320px;
+}
+
+a,
+input[type=button],
+input[type=submit],
+button {
+  cursor: pointer;
+}
+
+.btn-link {
+  color: #0275d8;
+
+  &:hover {
+    text-decoration: underline !important;
+  }
+
+  &:focus {
+    box-shadow: none !important;
+    color: #0275d8;
+    text-decoration: none;
+  }
+}
+
+input[type=text],
+input[type=number],
+input[type=password],
+input[type=date],
+select option,
+textarea {
+  font-size: 16px;
+}
+
+.formErrors {
+  padding-top: 6px;
+}
+
+.ng-invalid.ng-dirty,
+.ng-invalid.ng-dirty:focus {
+  border-color: #d9534e !important;
+}
+input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: rgba(0,0,0,.25) !important;
+  opacity: 1 !important;
+}
+input::-moz-placeholder { /* Firefox 19+ */
+  color: rgba(0,0,0,.25) !important;
+  opacity: 1 !important;
+}
+input:-moz-placeholder { /* Firefox 18- */
+  color: rgba(0,0,0,.25) !important;
+  opacity: 1 !important;
+}
+input:-ms-input-placeholder { /* IE 10+ */
+  color: rgba(0,0,0,.25) !important;
+  opacity: 1 !important;
+}
+
+.opacity-half {
+  opacity: .5;
+}
